@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Products Page</h1>
+    <h1>{{ $title }}</h1>
+    {{-- <h2>{{ $description }}</h2> --}}
 </body>
 </html>
