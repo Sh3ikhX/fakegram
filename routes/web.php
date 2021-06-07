@@ -14,7 +14,7 @@ use App\Http\Controllers\ProductsController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//not the best practice to return view from router but use controller to return the view
 Route::get('/', function(){
     return view('home');
 });
