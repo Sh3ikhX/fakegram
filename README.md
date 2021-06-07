@@ -1,4 +1,4 @@
-# FAKEGRAM
-## Instagram Clone made in Laravel
-## Learning laravel from freecodecamp.org
+# Laravel Project
+## Learning Laravel
+## Learning laravel from YT
 ## WIP
