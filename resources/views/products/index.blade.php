@@ -6,7 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ $title }}</h1>
+    {{-- <h1>{{ $title }}</h1> --}}
     {{-- <h2>{{ $description }}</h2> --}}
+    @foreach ($data as $item)
+        <button>
+            {{ $item }}
+        </button>
+    @endforeach
 </body>
 </html>
