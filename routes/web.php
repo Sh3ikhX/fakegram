@@ -16,7 +16,8 @@ use App\Http\Controllers\ProductsController;
 */
 
 
-
+Route::get('/pro',[ProductsController::class,'index']);
+Route::get('/pro/about',[ProductsController::class,'about']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
